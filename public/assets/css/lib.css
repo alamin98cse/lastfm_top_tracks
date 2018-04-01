@@ -1,0 +1,484 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+/*-----------------------------------------------------------------------------------*/
+/*  GENERAL STYLING
+/*-----------------------------------------------------------------------------------*/
+
+body {
+    font-family    : 'Lato', sans-serif;
+    height         : 100%;
+    color          : #757b87;
+    padding-bottom : 0 !important;
+
+}
+.icon-section {
+    background-color : #09bd8f;
+    line-height      : 7px;
+    padding-top      : 10px;
+    margin-bottom    : 10px;
+
+}
+a:link,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color           : #757b87;
+    text-decoration : none;
+}
+ul {
+    list-style-type : none;
+}
+li label {
+    position    : relative;
+    bottom      : 5px;
+    color       : #757b87;
+    font-weight : lighter;
+}
+label {
+    color       : #757b87;
+    font-weight : lighter;
+    padding     : 10px 5px;
+}
+p {
+    text-align : justify;
+}
+p label {
+    text-align : justify;
+}
+/* ----------Custom Color Code ---------- */
+
+.primary,
+.primary > a,
+.primary > a:visited,
+.primary > a:hover,
+.primary > a:active {
+    color           : #418bca;
+    text-decoration : none;
+}
+.danger,
+.danger > a,
+.danger > a:visited,
+.danger > a:hover,
+.danger > a:active {
+    color           : #ef6f6c;
+    text-decoration : none;
+}
+.success,
+.success > a,
+.success > a:visited,
+.success > a:hover,
+.success > a:active {
+    color           : #01bc8c;
+    text-decoration : none;
+}
+.warning,
+.warning > a,
+.warning > a:visited,
+.warning > a:hover,
+.warning > a:active {
+    color           : #f89a14;
+    text-decoration : none;
+}
+.yellow,
+.yellow > a,
+.yellow > a:visited,
+.yellow > a:hover,
+.yellow > a:active {
+    color           : #FFD43C;
+    text-decoration : none;
+}
+/* ---------- //Custom Color Code End ---------- */
+/* ---------- Text-Bg color Code Css ---------- */
+
+.bg-default {
+    background-color : #f5f5f5;
+}
+.bg-primary {
+    background-color : #418bca;
+    color            : #fff;
+}
+.bg-success {
+    background-color : #01bc8c;
+    color            : #fff;
+}
+.bg-danger {
+    background-color : #ef6f6c;
+    color            : #fff;
+}
+.bg-warning {
+    background-color : #f89a14;
+    color            : #fff;
+}
+/* ---------- //Text-Bg color Code Css End ---------- */
+
+/* ---------- Text-Bg Border color Code Css ---------- */
+
+.border-primary {
+    border-bottom  : 2px solid #418bca;
+    padding-bottom : 5px;
+}
+.border-warning {
+    border-bottom  : 2px solid #f89a14;
+    padding-bottom : 5px;
+}
+.border-success {
+    border-bottom  : 2px solid #01bc8c;
+    padding-bottom : 5px;
+}
+.border-danger {
+    border-bottom  : 2px solid #ef6f6c;
+    padding-bottom : 5px;
+}
+/* ---------- //Text-Bg Border color Code Css End---------- */
+/* ---------- Text-Success Css---------- */
+
+.text-success {
+    color            : #01bc8c !important;
+    background-color : inherit;
+}
+.text-danger {
+    color : #ef6f6c;
+}
+/* ---------- //Text-Success End---------- */
+/* ---------- Nav bar Css Start ---------- */
+
+.navbar-right {
+    margin-right : 30px;
+}
+.icon-position label {
+    padding-left : 0;
+    margin-left  : 0;
+}
+.logo_position {
+    position : relative;
+    bottom   : 20px;
+}
+.navbar-nav > li > a {
+    font-size      : 14px;
+    text-transform : uppercase;
+    font-weight    : 400;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color : #01bc8c;
+}
+/* ---------- Navbar  Dropdown menu Css ---------- */
+
+.navbar-nav .dropdown-menu:before {
+    bottom        : 15px;
+    width         : 0;
+    height        : 0;
+    left          : 100px;
+    z-index       : 1002;
+    content       : " ";
+    display       : block !important;
+    position      : relative;
+    border-bottom : 8px solid #ef6f6c;
+    border-right  : 8px solid transparent;
+    border-left   : 8px solid transparent;
+}
+/* ---------- //Navbar  Dropdown menu Css End ---------- */
+/* ---------- Navbar  Dropdown menu hover Css ---------- */
+
+.navbar-nav .dropdown-menu a:hover {
+    border-left : 2px solid #ef6f6c;
+}
+/* ---------- //Navbar  Dropdown menu hover Css End ---------- */
+
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a {
+    background-color : #fff !important;
+    color            : #01bc8c;
+}
+.navbar-nav .dropdown-menu li:hover {
+    border : none;
+}
+.navbar {
+    margin-bottom    : 0;
+    background-color : transparent;
+    border           : none;
+}
+/* ---------- Nav bar Css End ---------- */
+/* ---------- Menu Section Css ---------- */
+
+.menu > li {
+    border  : 1px solid #f89a14;
+    padding : 10px 13px;
+    margin  : 0 10px;
+}
+.menu {
+    margin-top : 20px;
+}
+.menu > li:hover,
+.menu li .active {
+    background-color : #01bc8c;
+}
+/* ---------- //Menu Section Css End ---------- */
+
+.tabbable-panel ul {
+    list-style-type : none;
+}
+
+
+.pull-right a {
+    color : #128bc6;
+}
+.input-group-addon {
+    color : #fff;
+}
+.team img {
+    width      : 100%;
+    height     : 100%;
+    margin-top : 10px;
+}
+/* ---------- News Section Css----------*/
+
+.news {
+    margin-top : 2%;
+}
+.news .form-group {
+    width : 80%;
+}
+.news .form-control {
+    background-color : #444343;
+    border           : 1px solid #5E5E5E;
+    color            : #f3f3f3;
+}
+.news > .form-control:focus {
+    border-color       : #5E5E5E;
+    outline            : 0;
+    -webkit-box-shadow : rgba(0, 0, 0, 0);
+    box-shadow         : rgba(0, 0, 0, 0);
+}
+/* ---------- //News Section Css End ---------- */
+
+.panel-default > .panel-heading {
+    color            : #333;
+    background-color : #fff;
+    border-color     : #DDD;
+}
+/* ---------- Headings Border Css ---------- */
+
+.heading_border {
+    color                   : #fff;
+    border-top-left-radius  : 5px;
+    border-top-right-radius : 5px;
+    margin-bottom           : 15px;
+    padding                 : 5px 15px;
+}
+/* ---------- //Headings Border Css End---------- */
+
+.tab img {
+    width : 100%;
+}
+.tab {
+    padding-left : 0;
+}
+.tab_list > li {
+    padding : 5px;
+}
+.tab_list {
+    margin-top   : 15px;
+    padding-left : 0;
+}
+.profile img {
+    width : 100%;
+}
+/* ---------- Footer Section Css ---------- */
+
+footer {
+    background-color : #262626;
+}
+footer h4 {
+    color : #fff;
+}
+.footer-text {
+    color   : #ababab;
+    padding : 30px 0;
+}
+footer img {
+    width : 50px;
+}
+footer .btn-primary.text-white {
+    margin-top : 2%;
+}
+/* ---------- //Footer Section Css End ---------- */
+
+.text-white {
+    color : #fff !important;
+}
+.bg-white {
+    background-color : #fff;
+}
+@media (max-width : 370px) {
+    .properties {
+        border-right : none;
+    }
+    .media-object img {
+        width : 50%;
+    }
+}
+/* ---------- About Us Slider Css ---------- */
+
+#owl-demo .item img {
+    display : block;
+    width   : 100%;
+    height  : auto;
+}
+#owl-demo {
+    margin : 0;
+}
+#bar {
+    width      : 0;
+    max-width  : 100%;
+    height     : 3px;
+    background : #01bc8c;
+}
+#progressBar {
+    width      : 100%;
+    background : #EDEDED;
+}
+
+/* ---------- Copy Right Section Css  ---------- */
+
+.copyright {
+    background-color : #1a1a1a;
+}
+.copyright p {
+    color   : #fff;
+    padding : 0.5% 0;
+    margin  : 0.5% 0;
+}
+/* ---------- //Copy Right Section Css  ---------- */
+
+@media (max-width : 759px) {
+    .navbar-nav .dropdown-menu:before {
+        content : none;
+    }
+}
+@media (max-width : 950px) {
+    .profile {
+        display      : block;
+        margin-right : 4%;
+        margin-left  : 4%;
+    }
+}
+.skin_btn {
+    display       : inline-table;
+    cursor        : pointer;
+    width         : 30px;
+    height        : 30px;
+    margin-bottom : 1px;
+}
+.skin_size {
+    width  : 30px;
+    height : 30px;
+    margin : 3px;
+}
+.well {
+    padding : 10px;
+}
+.primary_skin {
+    background-color : #128bc6;
+}
+.danger_skin {
+    background-color : #ef6f6c;
+}
+.success_skin {
+    background-color : #01bc8c;
+}
+.warning_skin {
+    background-color : #F89A14;
+}
+.purple_skin {
+    background-color : #D2527F;
+}
+.turquoise_skin {
+    background-color : #4ecdc4;
+}
+.asbestos_skin {
+    background-color : #7f8c8d;
+}
+.hoki_skin {
+    background-color : #67809f;
+}
+#hr_border {
+    border-top : 1px solid #999;
+    margin-top : 26px;
+}
+#hr_border2 {
+    border-top : 1px solid #999;
+}
+.alert-success {
+    color: #fff;
+    background-color: #22ddad !important;
+    border-color: #acf6ac !important;
+}
+.alert-info {
+    color: #fff;
+    background-color: #67C5DF !important;
+    border-color: #67C5DF !important;
+}
+.alert-warning {
+    color: #fff;
+    background-color: #F89A14 !important;
+    border-color: #F89A14 !important;
+}
+.alert-danger {
+    color: #fff;
+    background-color: #ff908d !important;
+    border-color: #EF6F6C !important;
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label{
+    color:#EF6F6C;
+}
+.has-error .input-group-addon{
+    border-color: #EF6F6C;
+    background-color: #EF6F6C;
+    color:#418bca;
+}
+.has-error .form-control{
+    border-color:#EF6F6C;
+}
+
+.pager li > a, .pager li > span {
+    border-radius: 0;
+}
+.nav>li>a{
+    padding: 8px 13px !important;
+}
+
+
+/* Home banner */
+
+
+.masthead{
+	position:relative;
+	background-color:#343a40;
+	/*background:url(../img/bg-masthead.jpg) no-repeat center center; */
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding-top:8rem;
+	padding-bottom:8rem}
+
+.masthead .overlay{
+	position:absolute;background-color:#212529;
+	height:100%;width:100%;top:0;left:0;opacity:.3}
+
+.masthead h1{font-size:2rem}
+
+@media (min-width:768px){
+	.masthead{padding-top:12rem;padding-bottom:12rem}
+
+	.masthead h1{font-size:3rem}
+}
+
+.text-white {
+    color: #fff!important;
+}
+.text-center {
+    text-align: center!important;
+}
