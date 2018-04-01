@@ -1,5 +1,22 @@
-# lastfm_top_tracks
+## Last.fm Top Tracks
 
+# Used framework : Laravel 5.6
+
+1. Setup
+    - -> Extract lastfm.zip in appropriate apache web server (PHP >= 7.1.3). 
+    - -> composer need to install/update packages. please make sure composer is installed.
+    - -> cd to lastfm directory and run 'composer update' 
+    -  Required package **[integration/lastfm](https://packagist.org/packages/integration/lastfm)**
+
+2. Configure
+    - -> Just update .env file in lastfm directory with correct LASTFM_API_KEY.
+
+Note: No need to use attached integration_package anywhere as it would be installed when you will run 'composer update' (included in composer.json). 
+
+
+
+All done to run the application.
+=====================================================================================================================================
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
