@@ -22,7 +22,7 @@
                  
                         <div class="col-12 col-md-9 mb-2 mb-md-0 input-group">
                             
-                            <input type="text" name="country" class="form-control form-control-lg" placeholder="Enter Country Name...">
+                            <input type="text" name="country" class="form-control form-control-lg" placeholder=Enter Country Name...">
                             
                             <span class="input-group-btn">
 
